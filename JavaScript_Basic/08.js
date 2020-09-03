@@ -11,6 +11,7 @@ console.log(isNaN("hello")? "This string is a NaN": "This string is a not NaN");
 //```javascript
 var rNumber=(0.1*10 * 0.2*10)/100;
 console.log(rNumber);
+console.log(rNumber.toFixed(2));//this is alternative way by using a method. 
 
 //#### 3. Infinity
 //* Divide Infinity by `0`. 
