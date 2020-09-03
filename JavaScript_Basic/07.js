@@ -6,16 +6,18 @@
 //* What would happen if we were to use `=`?
 var check1=3; 
 var check2="3";
+console.log(typeof(check1), typeof(check2));
 console.log(check1=check2);
 console.log(check1==check2);
 console.log(check1===check2);
-//The answer is true, though in theory it is different. check1 is a number and check2 is a string.
+console.log(check1!==check2);
+console.log(check1!=check2);
+//one = is to assign, two = sign is "equal to" by comparing assigned values, three = sign is "identical 
+//not only to compare the assign value but to compare datatype.
 
-//2. Not
-//* Store the value `true` to a variable. Using a ternary operator,print the `false` option by checking the value of the initial variable.
-
+//2.* Store the value `true` to a variable. Using a ternary operator,print the `false` option by checking the value of the initial variable.
 var aNumber=true;
-console.log(aNumber!=true? "Ha, this is false!": "Doch, doch, this is true!");
+console.log(aNumber!=true? "Ha, that is right, the value is false!": "Doch, doch, the value is supposed to be true!");
 
 //#### 3. Short Circuit
 //Given the code below, what will print when when we console log `name`? Comment your answer in the js file.
