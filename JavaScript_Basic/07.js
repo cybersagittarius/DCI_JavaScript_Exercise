@@ -7,7 +7,6 @@
 var check1=3; 
 var check2="3";
 console.log(typeof(check1), typeof(check2));
-console.log(check1=check2);
 console.log(check1==check2);
 console.log(check1===check2);
 console.log(check1!==check2);
